@@ -5,8 +5,12 @@
 #ifndef YUKON_OPCODE_H
 #define YUKON_OPCODE_H
 
+#include <string>
+
+using namespace std;
+
 #pragma once
-extern TCHAR* OpcodeDesc[];
+extern string OpcodeDesc[];
 
 #define nop 0
 #define aconst_null 1 /*(0x1)*/

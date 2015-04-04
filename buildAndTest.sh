@@ -1,2 +1,2 @@
 #!/bin/sh
-cd build && cmake .. && make && ./test/CharBagTest && ./test/HuffmanTreeTest && ./test/PriorityQueueTest
+cd build && cmake .. && make && ./test/opcodeTest

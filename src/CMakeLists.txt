@@ -3,16 +3,12 @@ cmake_minimum_required(VERSION 2.8)
 project(yukon_core_project)
 
 add_library( YukonCore
-    CharBag.cpp
-    HuffmanTree.cpp
-    ZipTable.cpp
-    PriorityQueue.cpp
+    opcode.cpp
 )
 
-add_executable( YukonInstance
-    HuffmanCoding.cpp
-)
+#add_executable( YukonInstance
+#)
 
-target_link_libraries( YukonInstance
+target_link_libraries(
     YukonCore
 )

@@ -9,6 +9,6 @@ add_executable( opcodeTest
 
 target_link_libraries( opcodeTest
     cspec
-    opcode
+    YukonCore
 )
 
