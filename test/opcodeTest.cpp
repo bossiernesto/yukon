@@ -13,6 +13,7 @@ int main(int argc, char **argv) {
                 it("Test nop operation", function()
                 {
                     should_int(nop) be equal to(0);
+                    should_string(OpcodeDesc[nop].c_str()) be equal to("nop");
                 });
 
                 it("Test aconst_null operation", function()
